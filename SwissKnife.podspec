@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwissKnife'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwissKnife.'
+  s.summary          = 'iOS utility functions, helpers & extensions.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The pod provides utilities & helpers to easily implement common functionality. Below are
+a few examples of the kind of features supported.
+
+* Support loading symbol for a page that loads values from server.
+* Support infinite loading
+* Support pagination
                        DESC
 
-  s.homepage         = 'https://github.com/harshalbhakta/SwissKnife'
+  s.homepage         = 'https://github.com/InformationWorks/SwissKnife'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'harshalbhakta' => 'harshal.c.bhakta@gmail.com' }
-  s.source           = { :git => 'https://github.com/harshalbhakta/SwissKnife.git', :tag => s.version.to_s }
+  s.author           = { 'InformationWorks' => 'developer@informationworks.in' }
+  s.source           = { :git => 'https://github.com/InformationWorks/SwissKnife.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
